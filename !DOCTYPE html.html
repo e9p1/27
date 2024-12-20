@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Clothing Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .hero {
+            text-align: center;
+            padding: 2rem;
+            background-color: #f4f4f4;
+        }
+        .hero h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            padding: 2rem;
+        }
+        .product {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+        .product h3 {
+            margin: 0;
+            padding: 0.5rem;
+        }
+        .product p {
+            margin: 0;
+            padding: 0.5rem;
+        }
+        .product button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 0.5rem;
+            width: 100%;
+            cursor: pointer;
+        }
+        .product button:hover {
+            background-color: #555;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Stylish Threads</h1>
+        <p>Your one-stop shop for trendy clothing</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Find Your Perfect Outfit</h1>
+        <p>Explore the latest collections at unbeatable prices!</p>
+    </section>
+
+    <section class="products">
+        <div class="product">
+            <img src="placeholder.jpg" alt="T-Shirt">
+            <h3>Trendy T-Shirt</h3>
+            <p>$19.99</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="placeholder.jpg" alt="Jeans">
+            <h3>Classic Jeans</h3>
+            <p>$39.99</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="placeholder.jpg" alt="Jacket">
+            <h3>Stylish Jacket</h3>
+            <p>$49.99</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="placeholder.jpg" alt="Dress">
+            <h3>Elegant Dress</h3>
+            <p>$59.99</p>
+            <button>Add to Cart</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Stylish Threads. All rights reserved.</p>
+    </footer>
+</body>
+</html>
